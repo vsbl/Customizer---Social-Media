@@ -13,8 +13,8 @@
 	    <i class="fa fa-facebook-square"></i>
 	</a>
 <?php endif; ?>
-<?php if( get_theme_mod( "pinerest" ) ): ?>
-	<a href="<?php echo esc_url( get_theme_mod( 'pinerest' ) ); ?>" target="_blank" alt="Visible Pinerest" >
+<?php if( get_theme_mod( "pinterest" ) ): ?>
+	<a href="<?php echo esc_url( get_theme_mod( 'pinterest' ) ); ?>" target="_blank" alt="Visible Pinerest" >
 	    <i class="fa fa-pinterest-square"></i>
 	</a>
 <?php endif; ?>
