@@ -1,0 +1,30 @@
+<?php if( get_theme_mod( "instagram" ) ): ?>
+	<a href="<?php echo esc_url( get_theme_mod( 'instagram' ) ); ?>" target="_blank" alt="Visible Instagram" >
+	    <i class="fa fa-instagram"></i>
+	</a>
+<?php endif; ?>
+<?php if( get_theme_mod( "twitter" ) ): ?>
+	<a href="<?php echo esc_url( get_theme_mod( 'twitter' ) ); ?>" target="_blank" alt="Visible Twitter" >
+	    <i class="fa fa-twitter-square"></i>
+	</a>
+<?php endif; ?>
+<?php if( get_theme_mod( "facebook" ) ): ?>
+	<a href="<?php echo esc_url( get_theme_mod( 'facebook' ) ); ?>" target="_blank" alt="Visible Facebook" >
+	    <i class="fa fa-facebook-square"></i>
+	</a>
+<?php endif; ?>
+<?php if( get_theme_mod( "pinerest" ) ): ?>
+	<a href="<?php echo esc_url( get_theme_mod( 'pinerest' ) ); ?>" target="_blank" alt="Visible Pinerest" >
+	    <i class="fa fa-pinterest-square"></i>
+	</a>
+<?php endif; ?>
+<?php if( get_theme_mod( "google-plus" ) ): ?>
+	<a href="<?php echo esc_url( get_theme_mod( 'google-plus' ) ); ?>" target="_blank" alt="Visible Google Plus" >
+	    <i class="fa fa-google-plus-square"></i>
+	</a>
+<?php endif; ?>
+<?php if( get_theme_mod( "linkedin" ) ): ?>
+	<a href="<?php echo esc_url( get_theme_mod( 'linkedin' ) ); ?>" target="_blank" alt="Visible linkedin" >
+	    <i class="fa fa-linkedin-square"></i>
+	</a>
+<?php endif; ?>
